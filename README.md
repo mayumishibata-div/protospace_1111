@@ -1,5 +1,4 @@
 # README
-
 # テーブル設計
 
 ## usersテーブル
@@ -15,6 +14,8 @@
 
 ### Association
 
+- has_many :prototypes
+- has_many :comments
 
 
 ## prototypesテーブル
@@ -40,7 +41,7 @@
 | prototype | references | null: false, foreign_key: true |
 | user      | references | null: false, foreign_key: true |
 
- ### Association
+### Association
 
- - belongs_to :user
- - belongs_to :prototype
+- belongs_to :user
+- belongs_to :prototype
