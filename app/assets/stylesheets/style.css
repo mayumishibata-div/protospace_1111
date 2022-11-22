@@ -2,6 +2,9 @@
 * {
   box-sizing: border-box;
 }
+.field_with_errors {
+  display: contents;
+}
 
 html,
 body,
@@ -320,4 +323,5 @@ a {
   .table{
     width: 100%;
   }
+
 }
